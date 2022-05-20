@@ -8,8 +8,8 @@
     -   [Js](#js)
     -   [Shell](#shell)
 -   [Dependencies Required](#dependencies-required)
--   Zshell:
-    -   [Zshell ScreenShot](#the-zshell-look-after-using-zshrczshrczshrc)
+-   [Zshell:](#zshell)
+    -   [Zshell ScreenShot](#terminal-screenshotimagesterminal-sspng)
     -   [Try Zshell](#try-zshell)
     -   [Change default shell to zsh](#change-your-default-shell-to-zsh-linux)
 -   [Change figlet text art](#change-figlet-text-art)
@@ -59,11 +59,15 @@ rm -rf figlet-fonts
 -   zsh-syntax-highlighting
 -   zsh-autosuggestions
 
-## The Zshell look after using [zshrc](zshrc/zshrc)
+# Zshell:
 
-![terminal Screenshot](images/terminal-ss.png)
+It is mostly contributed by [him](https://github.com/jakbin/myzsh.git)
 
-## Try Zshell
+### The Zshell look after using [zshrc](zshrc/zshrc)
+
+### ![terminal Screenshot](images/terminal-ss.png)
+
+### Try Zshell
 
 ```bash
 zsh
