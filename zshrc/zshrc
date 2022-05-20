@@ -1,3 +1,5 @@
+name="The.AnaKen"
+
 # ~/.zshrc file for zsh non-login shells.
 # see /usr/share/doc/zsh/examples/zshrc for examples
 
@@ -238,6 +240,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# terminal startup programs 
-figlet -f 'Chunky' "The.AnaKen"  | lolcat
+figlet -f 'Chunky' $name  | lolcat
 pfetch | lolcat
