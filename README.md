@@ -7,9 +7,9 @@
 -   [Languages:](#languages)
     -   [Js](#js)
     -   [Shell](#shell)
--   [Dependencies Required](#dependencies-required)
 -   [Zshell:](#zshell)
-    -   [Zshell ScreenShot](#terminal-screenshotimagesterminal-sspng)
+    -   [Zshell ScreenShot](#zshell-screenshots)
+    -   [Dependencies Required](#dependencies-required)
     -   [Try Zshell](#try-zshell)
     -   [Change default shell to zsh](#change-your-default-shell-to-zsh-linux)
 -   [Change figlet text art](#change-figlet-text-art)
@@ -50,6 +50,22 @@ rm -rf figlet-fonts
 -   ### Shell
     -   zshrc
 
+# Zshell:
+
+It is mostly contributed by [him](https://github.com/jakbin/myzsh.git)
+
+### The Zshell look after using [zshrc](zshrc/zshrc)
+
+## Zshell Screenshots:
+
+### Normally:
+
+![terminal Screenshot](images/terminal-ss.png)
+
+### In a Git dir:
+
+![terminal Screnshpt in a git dir](images/terminal-git-ss.png)
+
 ### Dependencies required
 
 -   lolcat
@@ -58,14 +74,6 @@ rm -rf figlet-fonts
 -   zsh
 -   zsh-syntax-highlighting
 -   zsh-autosuggestions
-
-# Zshell:
-
-It is mostly contributed by [him](https://github.com/jakbin/myzsh.git)
-
-### The Zshell look after using [zshrc](zshrc/zshrc)
-
-### ![terminal Screenshot](images/terminal-ss.png)
 
 ### Try Zshell
 
