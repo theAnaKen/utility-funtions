@@ -1,12 +1,19 @@
 # Contents
 
 -   [About](#utility-files)
--   [Installation](#Installation)
--   [Languages](#languages)
+-   [Installation:](#Installation)
+    -   [Clone Repo](#clone-it-using-git)
+    -   [Figlet Fonts](#install-figlet-fonts)
+-   [Languages:](#languages)
     -   [Js](#js)
     -   [Shell](#shell)
 -   [Dependencies Required](#dependencies-required)
--   [Zshell ScreenShot](#the-zshell-look-after-using-zshrczshrczshrc)
+-   Zshell:
+    -   [Zshell ScreenShot](#the-zshell-look-after-using-zshrczshrczshrc)
+    -   [Try Zshell](#try-zshell)
+    -   [Change default shell to zsh](#change-your-default-shell-to-zsh-linux)
+-   [Change figlet text art](#change-figlet-text-art)
+
 -   [Support Email](#support)
 
 # Utility Files
@@ -56,7 +63,7 @@ rm -rf figlet-fonts
 
 ![terminal Screenshot](images/terminal-ss.png)
 
-## try Zshell
+## Try Zshell
 
 ```bash
 zsh
