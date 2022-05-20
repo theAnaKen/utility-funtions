@@ -44,11 +44,11 @@ rm -rf figlet-fonts
 ## Languages
 
 -   ### Js
-    -   limit decimal digits
-    -   remove comma from a string
-    -   remove extra spaces from a string
+    -   [limit decimal digits](js/DecimalRoundOff.js)
+    -   [remove comma from a string](js/RemoveComma.js)
+    -   [remove extra spaces from a string](js/RemoveExtraSpaces.js)
 -   ### Shell
-    -   zshrc
+    -   [zshrc](zshrc/zshrc)
 
 # Zshell:
 
