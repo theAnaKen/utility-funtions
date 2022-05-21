@@ -1,4 +1,5 @@
 name="The.AnaKen"
+source ~/.zsh-ext/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # ~/.zshrc file for zsh non-login shells.
 # see /usr/share/doc/zsh/examples/zshrc for examples
@@ -150,14 +151,7 @@ unset color_prompt force_color_prompt
 # enable color support of ls, less and man, and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
 
-    alias grep='grep --color=auto'
-    alias fgrep='fgrep --color=auto'
-    alias egrep='egrep --color=auto'
-    alias diff='diff --color=auto'
-    alias ip='ip --color=auto'
 
     export LESS_TERMCAP_mb=$'\E[1;31m'     # begin blink
     export LESS_TERMCAP_md=$'\E[1;36m'     # begin bold
@@ -171,44 +165,12 @@ if [ -x /usr/bin/dircolors ]; then
     zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 fi
 
-# alias
-# alias ls='ls -lh --color=auto'
-alias dir='dir --color=auto'
-alias vdir='vdir --color=auto'
-alias grep='grep --color=auto'
-# alias fgrep='fgrep --color=auto'
-# alias egrep='egrep --color=auto'
-alias bat='batcat'
 
-# some more ls aliases
-# alias l='ls -CF'
-# alias ll='ls -lh'
-# alias la='ls -lha'
-alias em='emacs -nw'
-alias dd='dd status=progress'
-alias _='sudo'
-alias _i='sudo -i'
-alias please='sudo'
-alias fucking='sudo'
-
-### LS & TREE
-alias ls='ls --color=auto'
-alias ll='ls -l'
-alias lla='ls -la'
+### Alias config
+alias ls='ls'
 alias la='ls -A'
-# alias l='ls -F'
-command -v lsd > /dev/null && alias ls='lsd --group-dirs first' && \
-	alias tree='lsd --tree'
-command -v colorls > /dev/null && alias ls='colorls --sd --gs' && \
-	alias tree='colorls --tree'
-
-#####################################################
-# Auto completion / suggestion
-# Mixing zsh-autocomplete and zsh-autosuggestions
-# Requires: zsh-autocomplete (custom packaging by Parrot Team)
-# Jobs: suggest files / foldername / histsory bellow the prompt
-# Requires: zsh-autosuggestions (packaging by Debian Team)
-# Jobs: Fish-like suggestion for command history
+alias gitadd='git add .'
+alias gitcommit='git commit -am'
 
 
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
